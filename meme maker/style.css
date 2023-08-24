@@ -1,0 +1,25 @@
+*{
+    font-family: "roboto", sans-serif;
+    text-align: center;
+}
+.MemeGen img{
+    height: 430px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 400ms ease;
+    background: #a82c2c;
+    color: #164d4d;
+    font-size: 20px;
+    margin: 24px 0;
+}
+.MemeGen .Generate-meme-btn :hover{
+    padding: 8px 20px;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    letter-spacing: 3px;
+}
+ .MemeGen  .meme-author{
+    margin: 8px;
+
+
+}
